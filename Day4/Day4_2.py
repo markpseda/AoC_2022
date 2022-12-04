@@ -23,7 +23,7 @@ while(index < size):
    #print(stopB)
    #print()
 
-   if((startA <= startB and stopA >= stopB) or (startB <= startA and stopB >= stopA)):
+   if((startA >= startB and startA <= stopB) or (startB >= startA and startB <= stopA)):
        print(subLists[0] + " " + subLists[1])
        numCompleteOverlaps += 1
 
